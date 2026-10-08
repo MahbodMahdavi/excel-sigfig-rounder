@@ -1,7 +1,6 @@
-Attribute VB_Name = "RoundToSigFigsModule"
 Option Explicit
 
-Sub RoundToSigFigs()
+Sub RoundToSigFigs(Optional control As IRibbonControl)
     ' Rounds every numeric cell in the current selection to 3 significant figures,
     ' overwriting the cell's value in place (same behavior as the original XLSTART macro).
 

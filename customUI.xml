@@ -4,9 +4,8 @@
       <tab id="sigFigsTab" label="Data Tools">
         <group id="sigFigsGroup" label="Rounding">
           <button id="roundBtn"
-                  label="Round to 3 Sig Figs"
                   size="large"
-                  imageMso="RoundedRectangle"
+                  image="round_icon"
                   onAction="RoundToSigFigsModule.RoundToSigFigs" />
         </group>
       </tab>
